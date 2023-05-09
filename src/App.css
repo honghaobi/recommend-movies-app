@@ -1,0 +1,35 @@
+.App {
+  background-color: #282c34;
+  text-align: center;
+  color: white;
+  height: 100vh;
+}
+
+.App-header {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:space-around;
+  font-size: calc(10px + 2vmin);
+
+}
+
+.moviesList {
+  width: 400px;
+  height: 600px;
+  text-align: left;
+  font-size: 14px;
+  overflow-y: scroll;
+}
+
+.instruction {
+  color: RGB(255,35,207)
+}
+
+.item {
+  cursor: pointer;
+}
+
+.selected {
+  background-color: RGB(58, 35, 206)
+}
