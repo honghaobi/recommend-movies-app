@@ -3,7 +3,7 @@ import App from './App';
 import { getRecommendedMovies } from "./getRecommendedMovies";
 import data from "./movies.json";
 
-test('renders learn react link', () => {
+test('renders Movies Recommendation App Title', () => {
   render(<App />);
   const appTitle = screen.getByText(/Movies Recommendation App/i);
   expect(appTitle).toBeInTheDocument();
